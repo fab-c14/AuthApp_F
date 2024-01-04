@@ -27,7 +27,7 @@ class Register extends Component {
 //     console.log(this.state);
 //   };
   registerUser = ()=>{
-    fetch("https://3000-fabc14-authapp-miadiq2llmj.ws-us107.gitpod.io/register",{
+    fetch("https://authapp-9n9s.onrender.com/register",{
       method:'post',
       headers:{"Content-Type":"application/json"},
       body:JSON.stringify({
