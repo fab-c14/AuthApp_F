@@ -22,7 +22,7 @@ class SignIn extends Component {
     };
 
     DetectUser = () => {
-        fetch("https://3000-fabc14-authapp-miadiq2llmj.ws-us107.gitpod.io/sign", {
+        fetch("https://authapp-9n9s.onrender.com/sign", {
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
